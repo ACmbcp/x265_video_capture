@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Video_capture_ffmpeg", "Video_capture_ffmpeg.vcxproj", "{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B} = {BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x265-Milestone", "..\..\..\..\study\video_encode_learning\x265\x265-te\X265-master\build\vc17-x86_64\x265-Milestone.vcxproj", "{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.Debug|x64.ActiveCfg = Debug|x64
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.Debug|x64.Build.0 = Debug|x64
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.Debug|x86.Build.0 = Debug|Win32
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.MinSizeRel|x64.Build.0 = Release|x64
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.MinSizeRel|x86.Build.0 = Release|Win32
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.Release|x64.ActiveCfg = Release|x64
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.Release|x64.Build.0 = Release|x64
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.Release|x86.ActiveCfg = Release|Win32
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.Release|x86.Build.0 = Release|Win32
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{C24B8BC7-1F44-4255-B908-CE1874AAFC6B}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.Debug|x64.ActiveCfg = Debug|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.Debug|x64.Build.0 = Debug|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.Debug|x86.ActiveCfg = Debug|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.Debug|x86.Build.0 = Debug|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.MinSizeRel|x86.ActiveCfg = MinSizeRel|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.MinSizeRel|x86.Build.0 = MinSizeRel|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.Release|x64.ActiveCfg = Release|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.Release|x64.Build.0 = Release|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.Release|x86.ActiveCfg = Release|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.Release|x86.Build.0 = Release|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|x64
+		{BFB6EA2B-3AAE-3735-A6D2-F762DAD3A96B}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F370317-0534-4E9C-A176-86FF18ADAC36}
+	EndGlobalSection
+EndGlobal

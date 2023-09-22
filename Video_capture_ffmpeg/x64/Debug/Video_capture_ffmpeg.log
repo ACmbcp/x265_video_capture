@@ -1,0 +1,10 @@
+﻿  x265_test.cpp
+E:\huibao\Video_capture\video_capture_project\Video_capture_ffmpeg\x265_test.cpp(29,58): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  x265dll.cpp
+E:\huibao\Video_capture\video_capture_project\Video_capture_ffmpeg\x265dll.cpp(264,15): warning C4244: “初始化”: 从“Int64”转换到“Int”，可能丢失数据
+E:\huibao\Video_capture\video_capture_project\Video_capture_ffmpeg\x265dll.cpp(315,10): warning C4477: “printf”: 格式字符串“%5d”需要类型“int”的参数，但可变参数 1 拥有了类型“Int64”
+E:\huibao\Video_capture\video_capture_project\Video_capture_ffmpeg\x265dll.cpp(315,10): message : 请考虑在格式字符串中使用“%lld”
+E:\huibao\Video_capture\video_capture_project\Video_capture_ffmpeg\x265dll.cpp(315,10): message : 请考虑在格式字符串中使用“%Id”
+E:\huibao\Video_capture\video_capture_project\Video_capture_ffmpeg\x265dll.cpp(315,10): message : 请考虑在格式字符串中使用“%I64d”
+  正在生成代码...
+  Video_capture_ffmpeg.vcxproj -> E:\huibao\Video_capture\video_capture_project\Video_capture_ffmpeg\x64\Debug\Video_capture_ffmpeg.exe
